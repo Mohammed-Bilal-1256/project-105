@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+<button class="btn btn-default heading">Face Recognition App</button>
+<h3>Model is trained to identify the following objects :</h3>
+<button class="btn btn-default" >Father</button><br><br>
+<button class="btn btn-default" >Mother</button><br><br>
+<button class="btn btn-default" >Sister</button><br><br>
+<button class="btn btn-default" >Brother</button><br><br>
+<br><br><br>
+
+<label>Webcam View - </label>
+<div id="camera" height="350" width="300" boder="solid"></div>
+<br><br>
+<div id="result">
+
+    <br><br>
+      <button onclick="take_snapshot()" class="btn btn-info">Capture Image</button>
+      <br><br>
+      <button onclick="cheak()" class="btn btn-success"> Identify Image</button>
+      <br><br>
+</div>
+<br><br>
+
+
+</body>
+
+</html>
